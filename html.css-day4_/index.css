@@ -1,0 +1,66 @@
+h1 {
+    inside the curley braces is where you apply your style
+    ex. color: green;
+    google color picker has hexidecimal values to all sort of colors. You can use RGB as well.
+}
+font-size: 20px; 
+ // you can control the font sie by altering the pixel size. 
+ 
+ // Classes and Ids allow you to select a specific items that you wan to styize different from the ::-webkit-search-results-button
+  ex. <h1> id="name"> Maegan SKinner />
+      <h2> id="location"> Dallas />
+      // to trgger the is you can use #idname{ } to denote the id you want to use
+    // because of specificuty, the comuter will always use the most specifc style choce if there are multiple options
+       - !important can be used to override style 
+       - when it comes to specifity the newest style will always win
+
+    // You can have multiple elemens with the sae class, but only one id per item.
+
+    <div>
+     class="box-1"
+     </div>
+
+// reset.css 
+     html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
