@@ -3,7 +3,7 @@
 function logHello(){
     console.log("Hello World");
 
-document.getElementById("message").innterText= "Goodbye DM25"
+document.getElementById("message").innerText= "Goodbye DM25"
 // document.getElementById("message").classList.add("blue-text")
 document.getElementById("todo-list").innerHTML= <li>Hello!</li>
 }
@@ -15,4 +15,6 @@ function addToList() {
     document.getElementById("todo-list").innerHTML= "<li> + inputText + </li>"
     
 }
-Console.log(input.value)
+// console.log(input.value)
+
+
