@@ -1,11 +1,8 @@
 import React from "react";
 
-
-class App extends React.Component {
+class Product = {
+    name: '',
+    price: 
+    image:
     
-    render() {
-        <div>
-            Header
-        </div>
-    }
-  }
+}

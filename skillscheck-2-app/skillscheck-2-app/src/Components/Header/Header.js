@@ -1,11 +1,11 @@
 import React from "react";
+import "./Header.css";
 
 
-class App extends React.Component {
-
-    render() {
-        <div>
-            Header
-        </div>
-    }
-}
+export default function Header(props) {
+    return (
+      <header className="header">
+        <h1>Shelfie</h1>
+      </header>
+    );
+  }
