@@ -1,5 +1,9 @@
 Function addHouset(req, res) {
-    const { name, price, image } = req.body;
+    const { name, price, image,
+address,
+    city = "city",
+    state = "state",
+    zipcode = "zipcode" } = req.body;
     const db = req.app.get("db");
     db.addHouse(name, price, image).then(response => {
         console.log(response);
